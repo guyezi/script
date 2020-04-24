@@ -283,10 +283,10 @@ ip_info4(){
 		city=${region}
 	fi
 
-	echo -e " ASN & ISP            : ${SKYBLUE}$asn, $isp${PLAIN}" | tee -a $log
-	echo -e " 机构         : ${YELLOW}$org${PLAIN}" | tee -a $log
-	echo -e " 位置             : ${SKYBLUE}$city, ${YELLOW}$country / $countryCode${PLAIN}" | tee -a $log
-	echo -e " 地区               : ${SKYBLUE}$region${PLAIN}" | tee -a $log
+	echo -e " ASN&ISP            : ${SKYBLUE}$asn, $isp${PLAIN}" | tee -a $log
+	echo -e " 机构                : ${YELLOW}$org${PLAIN}" | tee -a $log
+	echo -e " 位置                : ${SKYBLUE}$city, ${YELLOW}$country / $countryCode${PLAIN}" | tee -a $log
+	echo -e " 地区                : ${SKYBLUE}$region${PLAIN}" | tee -a $log
 
 	rm -rf tools.py
 	rm -rf ip_json.json
