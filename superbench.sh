@@ -283,7 +283,7 @@ ip_info4(){
 		city=${region}
 	fi
 
-	echo -e " ASN&ISP            : ${SKYBLUE}$asn, $isp${PLAIN}" | tee -a $log
+	echo -e " ASN&ISP             : ${SKYBLUE}$asn, $isp${PLAIN}" | tee -a $log
 	echo -e " 机构                : ${YELLOW}$org${PLAIN}" | tee -a $log
 	echo -e " 位置                : ${SKYBLUE}$city, ${YELLOW}$country / $countryCode${PLAIN}" | tee -a $log
 	echo -e " 地区                : ${SKYBLUE}$region${PLAIN}" | tee -a $log
@@ -416,7 +416,7 @@ print_system_info() {
 	echo -e " 交换空间            : ${SKYBLUE}$uswap MB / $swap MB${PLAIN}" | tee -a $log
 	echo -e " 运行时间            : ${SKYBLUE}$up${PLAIN}" | tee -a $log
 	echo -e " 系统负载            : ${SKYBLUE}$load${PLAIN}" | tee -a $log
-	echo -e " TCP   CC            : ${YELLOW}$tcpctrl${PLAIN}" | tee -a $log
+	echo -e " TCP  CC            : ${YELLOW}$tcpctrl${PLAIN}" | tee -a $log
 }
 
 print_end_time() {
