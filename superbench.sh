@@ -172,7 +172,7 @@ speed_test(){
 }
 
 print_speedtest() {
-	printf "%-18s%-18s%-20s%-12s\n" " 节点名称" "上行速度" "下行速度" "延迟" | tee -a $log
+	printf "%-18s%-18s%-20s%-12s\n" " 节点名称" "    上行速度" "    下行速度" "    延迟" | tee -a $log
     speed_test '' 'Speedtest.net'
     speed_fast_com
     speed_test '27377' '北京 5G   CT'
@@ -192,7 +192,7 @@ print_speedtest() {
 }
 
 print_speedtest_fast() {
-	printf "%-18s%-18s%-20s%-12s\n" " 节点名称" "上行速度" "下行速度" "延迟" | tee -a $log
+	printf "%-18s%-18s%-20s%-12s\n" " 节点名称" "    上行速度" "    下行速度" "    延迟" | tee -a $log
     speed_test '' 'Speedtest.net'
     speed_fast_com
     speed_test '27377' '北京 5G   CT'
