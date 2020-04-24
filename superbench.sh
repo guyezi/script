@@ -410,14 +410,14 @@ print_system_info() {
 	echo -e " CPU 类型            : ${SKYBLUE}$cname${PLAIN}" | tee -a $log
 	echo -e " CPU 核心            : ${YELLOW}$cores Cores ${SKYBLUE}$freq MHz $arch${PLAIN}" | tee -a $log
 	echo -e " CPU 缓冲            : ${SKYBLUE}$corescache ${PLAIN}" | tee -a $log
-	echo -e " 运行系统                   : ${SKYBLUE}$opsy ($lbit Bit) ${YELLOW}$virtual${PLAIN}" | tee -a $log
-	echo -e " 内核版本               : ${SKYBLUE}$kern${PLAIN}" | tee -a $log
-	echo -e " 存储容量          : ${SKYBLUE}$disk_used_size GB / ${YELLOW}$disk_total_size GB ${PLAIN}" | tee -a $log
+	echo -e " 运行系统            : ${SKYBLUE}$opsy ($lbit Bit) ${YELLOW}$virtual${PLAIN}" | tee -a $log
+	echo -e " 内核版本            : ${SKYBLUE}$kern${PLAIN}" | tee -a $log
+	echo -e " 存储容量            : ${SKYBLUE}$disk_used_size GB / ${YELLOW}$disk_total_size GB ${PLAIN}" | tee -a $log
 	echo -e " 内存容量            : ${SKYBLUE}$uram MB / ${YELLOW}$tram MB ${SKYBLUE}($bram MB Buff)${PLAIN}" | tee -a $log
-	echo -e " 交换空间           : ${SKYBLUE}$uswap MB / $swap MB${PLAIN}" | tee -a $log
-	echo -e " 运行时间               : ${SKYBLUE}$up${PLAIN}" | tee -a $log
-	echo -e " 系统负载         : ${SKYBLUE}$load${PLAIN}" | tee -a $log
-	echo -e " TCP  CC              : ${YELLOW}$tcpctrl${PLAIN}" | tee -a $log
+	echo -e " 交换空间            : ${SKYBLUE}$uswap MB / $swap MB${PLAIN}" | tee -a $log
+	echo -e " 运行时间            : ${SKYBLUE}$up${PLAIN}" | tee -a $log
+	echo -e " 系统负载            : ${SKYBLUE}$load${PLAIN}" | tee -a $log
+	echo -e " TCP  CC            : ${YELLOW}$tcpctrl${PLAIN}" | tee -a $log
 }
 
 print_end_time() {
