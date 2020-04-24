@@ -102,7 +102,7 @@ benchinit() {
 
 	if  [ ! -e 'tools.py' ]; then
 		echo " Installing tools.py ..."
-		wget --no-check-certificate https://github.com/guyezi/script/raw/1.1.7/speedtest_cli/tools.py > /dev/null 2>&1
+		wget --no-check-certificate https://github.com/guyezi/script/raw/1.1.7/tools.py > /dev/null 2>&1
 	fi
 	chmod a+rx tools.py
 
