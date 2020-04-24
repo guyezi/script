@@ -416,7 +416,7 @@ print_system_info() {
 	echo -e " 交换空间            : ${SKYBLUE}$uswap MB / $swap MB${PLAIN}" | tee -a $log
 	echo -e " 运行时间            : ${SKYBLUE}$up${PLAIN}" | tee -a $log
 	echo -e " 系统负载            : ${SKYBLUE}$load${PLAIN}" | tee -a $log
-	echo -e " TCP     CC            : ${YELLOW}$tcpctrl${PLAIN}" | tee -a $log
+	echo -e " TCP CC            : ${YELLOW}$tcpctrl${PLAIN}" | tee -a $log
 }
 
 print_end_time() {
